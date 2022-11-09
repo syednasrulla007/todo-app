@@ -1,0 +1,259 @@
+.text{
+    font-size: 50px;
+    opacity: 1;
+    color: rgb(45, 154, 198);
+}
+.parent{
+       position: relative;
+       top: 0px;
+       left: 0px;
+       width: 100%;
+       height: 1368px;
+background: #F7F7F7 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+.c1{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 70px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 30px #7B7B7B29;
+opacity: 1;
+
+    
+}
+.c1a{
+position: absolute;
+top: 17px;
+left: 80px;
+width: 196px;
+height: 49px;
+text-align: left;
+font: normal normal bold 40px/49px Inter;
+letter-spacing: 0px;
+opacity: 1;
+
+
+}
+.c2{
+position: absolute;
+top: 130px;
+right: 140px;
+width: 215px;
+height: 50px;
+opacity: 1;
+}
+.c2a{
+    cursor: pointer;
+}
+.c2b{
+position: absolute;
+top: 14px;
+left: 65px;
+width: 150px;
+height: 26px;
+text-align: left;
+font: normal normal normal 24px Inter;
+letter-spacing: 0px;
+color: #424242;
+opacity: 1;
+}
+.c3{
+    cursor: pointer;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    width: 352px;
+    height: 360px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.c3a{
+    color:#424242;
+    position: absolute;
+    top: 34px;
+    left: 30px;
+    font-size: 25px;
+    font: normal normal medium 20px/24px Inter;
+}
+.c3b{
+    background-color: lightgray;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 2px;
+    width: 100%;
+    
+}
+.c3c{
+    text-decoration: line-through;
+    color: lightgray;
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    padding: 0;
+   
+}
+input[type=checkbox]{
+        margin-left: 40px;
+        width: 30px;
+        height: 30px;
+        
+}
+input:checked + label{
+    color: #C2C2C2;
+    text-decoration: line-through;
+}
+
+.c3d{
+    color: gray;
+    font-size: 25px;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    padding: 0;
+    
+}
+.c4{
+cursor: pointer;
+position: absolute;
+top: 220px;
+left: 550px;
+width: 352px;
+height: 360px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.c5{
+cursor: pointer;
+position: absolute;
+top: 220px;
+right: 140px;
+width: 352px;
+height: 360px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.c6{
+cursor: pointer;
+position: absolute;
+top: 650px;
+left: 100px;
+width: 352px;
+height: 360px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.c7{
+cursor: pointer;
+position: absolute;
+top: 650px;
+left: 550px;
+width: 352px;
+height: 360px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.c3:hover {
+    box-shadow: 6px 6px 10px 10px  lightgrey;;
+}
+.c4:hover {
+    box-shadow: 6px 6px 10px 10px  lightgrey;;
+}
+.c5:hover {
+    box-shadow: 6px 6px 10px 10px  lightgrey;;
+}
+.c6:hover {
+    box-shadow: 6px 6px 10px 10px  lightgrey;;
+}
+.c7:hover {
+    box-shadow: 6px 6px 10px 10px  lightgrey;;
+}
+.blur{
+    filter: blur(2px) contrast(30%);
+}
+.fixed{
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.f1{
+    font: normal 24px Inter;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.f2{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.f3{
+    background-color: gray;
+    height: 1px;
+    position: absolute;
+    width: 350px;
+    top: 50px;
+}
+.f4{
+    padding-left: 20px;
+    background-color: #F7F7F7;
+    position: absolute;
+    top: 90px;
+    left: 15px;
+    height: 25px;
+    width: 300px;
+    color: #858585;;
+    border: 2px solid #EDEDED;
+}
+.f5{
+    color: white;
+    background-color: #00A5EC;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 30px;
+    width: 90px;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: justify;
+    font:  normal 18px Inter;
+}
+.last{
+    width: 400px;
+    top: 300px;
+    left: 550px;
+}
+.ok{
+    top: 200px;
+    right: 420px;
+}
+.back{
+    text-decoration: none;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    font-size: xx-large;
+}
